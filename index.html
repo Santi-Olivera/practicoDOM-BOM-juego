@@ -14,26 +14,32 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Juego de Adivinar el Número</title>
-    <body>
-        <div class="container mt-5">
-            <h1 class="text-center py-5">Juego de Adivinar el Número</h1>
-        
-            <div class="text-center mb-4">
-                <button id="startButton" class="btn btn-primary btn-lg">Comenzar el Juego</button>
-            </div>
-        
-        
-            <div id="seccionJuego" class="d-none">
-                <div class="text-center mb-4">
-                    <input type="number" id="usuarioInput" class="form-control" placeholder="Ingresa un número" />
-                </div>
-                <div class="text-center mb-4">
-                    <button id="submitButton" class="btn btn-warning">Enviar</button>
-                </div>
-            </div>
-            
-            <div id="mensajeResultado" class="text-center"></div>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center py-5">Juego de Adivinar el Número</h1>
+
+      <div class="text-center mb-4">
+        <button id="startButton" class="btn btn-primary btn-lg">
+          Comenzar el Juego
+        </button>
+      </div>
+      <div id="seccionJuego" class="d-none">
+        <div class="text-center mb-4">
+          <input
+            type="number"
+            id="usuarioInput"
+            class="form-control"
+            placeholder="Ingresa un número"
+          />
         </div>
-   <script src="./js/juego.js"></script>
-</body>
+        <div class="text-center mb-4">
+          <button id="submitButton" class="btn btn-warning">Enviar</button>
+        </div>
+      </div>
+
+      <div id="mensajeResultado" class="text-center"></div>
+    </div>
+    <script src="./js/juego.js"></script>
+  </body>
 </html>
